@@ -1,4 +1,4 @@
-[docker-elk Repository](https://github.com/deviantony/docker-elk.git) 에서 내려받은 설정을 변경해서 로컬에서 ELK tlfgod.  
+# [docker-elk Repository](https://github.com/deviantony/docker-elk.git) 에서 내려받은 설정을 변경해서 로컬에서 ELK 설치.  
 
 얼마전 Springboot MSA 프로젝트를 구성하고 중앙 집중식 로깅을 위해 ELK Stack을 적용해 봐야겠다고 생각을 했다. 처음에는 개인 AWS 클라우드 서버에 구성을 하려고 헀으나 비용의 압박으로 로컬 PC의 Docker환경으로 구성을 해보려고 한다. 여기서는 X-Pack: Elastic Stack의 확장팩은 설치하지 않을 것이다.
 

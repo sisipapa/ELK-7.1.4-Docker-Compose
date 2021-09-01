@@ -112,8 +112,11 @@ output {
 		user => "sisipapa"
 		password => "sisipapa!23$"
 		ecs_compatibility => disabled
-		index => "logstash-sisipapa"
+		index => "logstash-sisipapa-%{+YYYY.MM.dd}"
 	}
+    stdout {
+        codec => rubydebug
+    }
 }
 ```  
 
